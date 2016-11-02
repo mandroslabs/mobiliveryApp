@@ -1,0 +1,404 @@
+@import "compass";
+/*============================================ 
+	Override Responsive Mode
+  ============================================*/
+@media (max-width: 1200px) {
+  .team-carousel li > div > img{
+    height: 260px;
+  }
+  .blog-single {
+    padding-right: 0;
+  }
+  .item-contact i{
+    top: -27px;
+  }
+  .padd-100{
+    padding: 50px 0;
+  }
+  #delas .delas-carousel .slick-dots{
+    padding-top: 50px;
+  }
+  .parallax-window{
+    min-height: 200px;
+  }
+  #site-footer{
+    padding-top: 50px;
+  }
+  .footer-copyright{
+    margin-top: 50px;
+  }
+  #newsletter h3{
+    font-size: 30px;
+  }
+  .navbar{
+    height: 80px !important;
+  }
+  .navbar .logo{
+    margin-top: 17px !important;
+  }
+  .navbar .nav{
+    padding-top: 28px !important;
+  }
+  #reservation .form-reservation{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .offer-item:last-child{
+    display: none;
+  }
+  .vertical-carousel .offer-item:last-child{
+    display: block;
+    margin-bottom: 30px;
+  }
+  #site-footer .instagram a i{
+    line-height: 72px;
+  }
+  .f-menu-item{
+    background: none;
+  }
+
+}
+
+@media (max-width: 991px) {
+  #site-header .nav-top ul li.social-bloc{
+    display: none;
+  }
+  #site-header .navbar .nav a{
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .offer-item:last-child{
+    display: block;
+  }
+  .grid-sizer{ width: 50%; }
+  .hidden-md{
+    display: none !important;
+  }
+  #restaurant-menu .restaurant-filter li a{
+    min-width: auto;
+  }
+  .f-menu-item > div{
+    width: 100%;
+    text-align: left !important;
+  }
+  #from-menu .slick-dots{
+    width: 100%;
+  }
+  #vision .vision-item span::after{
+    display: none;
+  }
+  #newsletter h3 {
+      font-size: 23px;
+      padding-top: 8px;
+  }
+  .f-menu-item .item-left img{
+    max-width: none;
+    width: 100%;
+    padding-right: 0; 
+  }
+  .carousel-table .table-page .item{
+    width: 33.33%;
+  }
+}
+@media (max-width: 767px) {
+  #site-header .navbar{
+    background:rgba(0,0,0,.95) !important;
+  }
+   #site-header .navbar .nav a{
+    margin-left: 0;
+  }
+  #restaurant-menu .restaurant-filter li a:before,
+  #restaurant-menu .restaurant-filter li a:after,
+  .nav-top{
+    display: none !important;
+  }
+  #main-slider .section-slogan h2{
+    padding: 0 20px;
+  }
+  .navbar-collapse {
+    position: absolute;
+  }
+  .navbar {
+      height: 70px !important;
+      position: fixed;
+      width: 100%;
+  }
+  .navbar h1 {
+      margin-top: 13px !important;
+  }
+  #site-header .navbar .navbar-nav {
+    position: absolute;
+    left: 0;
+    top: 69px;
+    float: none;
+    background: rgba(0,0,0,.9);
+    width: 101%;
+    margin: 0 0 0 -1px;
+    max-height: 340px;
+    overflow: auto;
+    padding: 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 5px;
+    padding-right: 0;
+    padding-bottom: 40px !important
+  }
+  .menu-mobile {
+    display: block;
+    border: 1px solid #cf9b67;
+    padding: 9px 10px;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: none;
+  }
+  #site-header .navbar .nav a:after{
+    width: 100% !important;
+    @include opacity(1);
+    bottom: 14px;
+  }
+  #site-header .navbar .nav a:before{
+    @include opacity(1); 
+    display: block !important;
+    bottom: 12px;
+  }
+  .menu-mobile .icon-bar {
+    width: 22px;
+    height: 2px;
+    background: #cf9b67;
+    display: block;
+    border-radius: 1px;
+  }
+  .nav > li{
+    display: block;
+    overflow: hidden;
+    padding: 0 33px 0 15px;
+    position: relative;
+  }
+  #restaurant-menu .restaurant-list > div{
+    width: 100%;
+  }
+  .menu-mobile .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+
+.menu-mobile.current {
+    background: #cf9b67;
+  }
+
+.menu-mobile.current .icon-bar {
+    background: #fff;
+  }
+
+  #main-slider .section-slogan h2{
+    font-size: 52px;
+    line-height: 65px
+  }
+  #main-slider .section-slogan h3{
+    font-size: 24px;
+  }
+  #main-slider .section-slogan{
+    @include transform(translateY(-40%));
+  }
+  .scoll-down{
+    display: none !important;
+  }
+  .section-title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 2px 0 20px;
+    padding-bottom: 17px;
+  }
+  .section-suptitle {
+    font-size: 22px;
+  }
+  #reservation{
+    .col-md-7{
+      padding: 0;
+    }
+  }
+  .form-reservation .column{
+    margin-bottom: 20px !important;
+  }
+  .form-reservation .column > span{
+    width: 100% !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    &:last-child{
+      margin-bottom:0 !important;
+    }
+  }
+  #delas .delas-carousel .delas-item h4,
+  #delas .delas-carousel .delas-item p,
+  #delas .delas-carousel .delas-item span{
+    padding: 0 20px;
+  }
+  #events .event-carousel::before,
+  #vision{
+    display: none !important;
+  }
+  #from-menu{
+    background: #fafafa;
+    border-top: 1px solid #f2f2f2
+  }
+  .f-menu-item .item-right{
+    padding-top: 35px;
+  }
+  .f-menu-item > div{
+    padding-right: 0 !important;
+  }
+  .f-menu-item .item-right{
+    padding-bottom: 30px !important
+  }
+  .restaurant-filter{
+    display: !important
+  }
+  #restaurant-menu .restaurant-filter li{
+    margin: 0 15px 15px 0;
+  }
+  #restaurant-menu .restaurant-filter{
+    margin-bottom: 20px;
+  }
+  #events .event-carousel .event-item img{
+    max-width: auto;
+    width: 100%;
+  }
+  #newsletter{
+    .row{
+      >div{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .bloc-cms{
+    margin-bottom: 30px;
+  }
+  .bloc-cms>img{
+    margin-bottom: 15px !important
+  }
+  #site-footer .bloc-cms p{
+    margin-bottom: 15px;
+  }
+  #site-footer .open-hours p{
+    margin-bottom: 10px;
+  }
+  #special-offers .offer-left {
+    padding-top: 0;
+  }
+  #site-footer {
+      padding-top: 45px;
+  }
+  .footer-copyright {
+      margin-top: 30px;
+  }
+  .foot-title{
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+  }
+  .footer-copyright{
+    padding: 15px 0;
+  }
+  .footer-copyright p{
+    font-size: 12px;
+  }
+  .footer-copyright a{
+    display: none !important;
+  }
+  #contact{
+    padding-top: 20px;
+  }
+  .open-menu.menu-mobile span:nth-child(2) {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -moz-transform: translate(40px, 0);
+    -ms-transform: translate(40px, 0);
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+
+  .open-menu.menu-mobile span:first-child {
+    -moz-transform: rotate(45deg) translate(3px, 5px);
+    -ms-transform: rotate(45deg) translate(3px, 5px);
+    -webkit-transform: rotate(45deg) translate(3px, 5px);
+    transform: rotate(45deg) translate(3px, 5px);
+    top: 0 !important;
+  }
+
+  .open-menu.menu-mobile span:last-child {
+    -moz-transform: rotate(-45deg) translate(4px, -5px);
+    -ms-transform: rotate(-45deg) translate(4px, -5px);
+    -webkit-transform: rotate(-45deg) translate(4px, -5px);
+    transform: rotate(-45deg) translate(4px, -5px);
+    top: 0 !important;
+  }
+  .navbar-nav{
+    background: rgba(0,0,0,.9);
+    width: 100%;
+  }
+  #site-header>.nav-bar{
+    position: fixed;
+  }
+  #reservation .form-reservation .submit-btn{
+    padding-top: 0;
+  }
+  #newsletter{
+    padding: 30px 0;
+  }
+  #events{
+    background: none;
+  }
+  #drink .col-md-6 {
+      margin-bottom: 36px;
+  }
+  #breadcrumb{
+    min-height: auto;
+    > div{
+      position: static;
+      padding: 110px 0 40px;
+    }
+  }
+  .post-comments li ul li .comment {
+      padding-left: 30px;
+  }
+  .post-comments li .avatar {
+      display: block;
+      margin-bottom: 20px;
+      text-align: center;
+      vertical-align: top;
+  }
+  .post-comments li .comment-content {
+      display: block;
+      padding-left: 0;
+      vertical-align: top;
+  }
+  .carousel-table .table-page .item{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .offer-item img{
+    display: none;
+  }
+  .offer-item div {
+      float: left;
+      padding-left: 0;
+      padding-right: 20px;
+      width: 80%;
+  }
+  .offer-item .offer-price{
+    right: 0;
+  }
+}
+@media (max-width: 460px) {
+  .carousel-table .table-page .item{
+    width: 100%;
+    min-height:auto;
+  }
+}
+/*============================================
+	End Override Responsive Mode
+  ============================================*/
